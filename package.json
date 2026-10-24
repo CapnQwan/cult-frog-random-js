@@ -1,6 +1,6 @@
 {
   "name": "@cult-frog/random",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A lightweight JavaScript library for pseudo-random number generation and random utilities",
   "license": "MIT",
   "author": "Quin Partridge",
