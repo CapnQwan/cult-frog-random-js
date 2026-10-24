@@ -1,0 +1,22 @@
+# Normalise every text file to LF, both in the repository and in the working
+# tree. Biome's formatter emits LF and CI runs on Linux, so checking out CRLF
+# on Windows made `biome check` report every file in the repo as unformatted.
+* text=auto eol=lf
+
+# Binary assets: never apply line-ending conversion or try to diff them.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.bin binary
+*.ktx2 binary
+*.basis binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# Generated; keep out of diffs and review noise.
+pnpm-lock.yaml linguist-generated=true

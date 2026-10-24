@@ -1,0 +1,9 @@
+{
+  "extends": "@cult-frog/tooling/tsconfig/base.json",
+  "include": ["src", "vitest.config.ts"],
+  "compilerOptions": {
+    "types": ["node"],
+    "declaration": false,
+    "declarationMap": false
+  }
+}

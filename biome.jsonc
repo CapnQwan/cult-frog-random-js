@@ -1,0 +1,1 @@
+{ "extends": ["@cult-frog/tooling/biome/base"] }

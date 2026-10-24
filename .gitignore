@@ -1,0 +1,66 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnpm-store/
+
+# =========================
+# Build outputs
+# =========================
+dist/
+coverage/
+*.tsbuildinfo
+*.tgz
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/*
+# Shared editor config is committed so everyone gets Biome as the formatter.
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+
+# =========================
+# Tooling caches
+# =========================
+.vite/
+.cache/
+
+# =========================
+# Local tooling state
+# =========================
+.tmp/
+temp/
+
+# Never commit compiled output that lands next to sources
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+src/**/*.d.ts.map
